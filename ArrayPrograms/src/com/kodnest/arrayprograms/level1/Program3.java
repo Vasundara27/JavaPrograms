@@ -1,0 +1,36 @@
+package com.kodnest.arrayprograms.level1;
+
+import java.util.Scanner;
+
+public class Program3 {
+	public static void main(String []args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter array length");
+		int arr1[] =new int[scan.nextInt()];
+		System.out.println("Enter the elements");
+		for(int i=0;i<=arr1.length-1;i++)
+		{
+			arr1[i]=scan.nextInt();
+		}
+		
+		int arr2[] =new int[arr1.length];
+		for(int i=0;i<=arr1.length-1;i++)
+		{
+			arr2[i]=arr1[i];
+		}
+		System.out.print("Original array contents are--- ");
+		for(int i=0;i<=arr1.length-1;i++)
+		{
+			System.out.print(+arr1[i]+" ");
+		}
+		System.out.println();
+		System.out.print("Copied array contents are--- ");
+		for(int i=0;i<=arr1.length-1;i++)
+		{
+			System.out.print(arr2[i]+" ");
+		}
+	}
+	
+
+}

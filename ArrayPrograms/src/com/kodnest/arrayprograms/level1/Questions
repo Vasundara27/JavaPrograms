@@ -1,0 +1,64 @@
+1)Write a java Program to create an integer array by taking length as input from the user . take the contents of the array from user and store the contents in the array. Display the contents of the array on to the console
+
+2) Write a java Program to create an integer array by taking length as input from the user . take the contents of the array from user and store the contents in the array. Display the contents of the array by incrementing each value present in the array by 5 on to the console.
+
+Note : Use Enhanced For Loop
+
+3)Copy all elements of one array into another array:
+
+Problem: We're given an array, and we need to create a new array that contains all the elements of the original array.
+
+Approach: We will iterate through the given array and copy each element to the new array at the same index. The new array will be of the same size as the original array.
+
+Boiler Plate Code
+
+Class CopyArray
+
+{
+
+//main method and rest of the code.
+
+}
+
+4)Calculate the sum of all elements in an integer array:
+
+Problem: We're given an array of integers, and we want to find the sum of all its elements.
+
+Approach: We will iterate through the array and add each element to a "sum" variable. By the time we've looked at every element in the array, our "sum" variable will contain the total sum of all elements in the array.
+
+5)Merge elements of 2 arrays into a 3rd array:
+
+Problem: We have two arrays, and we want to combine them into a third array.
+
+Approach: We will create a third array that has a size equal to the sum of the sizes of the first two arrays. We'll then copy all elements from the first array to the third array, and then continue where we left off by copying all elements from the second array to the third array.
+
+
+6)Write a java program to take array length as input from user and create an integer array
+
+Create an integer array and store elements into the array by taking elements as input from keyboard. Print the array contents on to console if array content is positive.
+
+7)Write a java program to take array length as input from user and create an integer array
+
+Create an integer array and store elements into the array by taking elements as input from keyboard.
+
+Before Swapping print the contents of array
+
+Ask user to enter 2 indexes . Swap the the values of 2 indexes
+
+After swapping print the contents of array.
+
+Sample input output
+
+Before swapping
+
+Arr--> 10 20 30 40 50
+
+After Swapping
+
+Arr-->10 30 20 40 50
+
+8)Write a java program to take array length as input from user and create an integer array
+
+Take elements from user and store elements into the array
+
+Call a method printArray present in PrintArray class which will print the array in forward direction and in reverse direction.
